@@ -159,16 +159,14 @@
   </div>
 
   <script>
-    burger = document.querySelector('.burger');
-    navbar = document.querySelector('.navbar');
-    leftnav = document.querySelector('.leftnav');
-    rightnav= document.querySelector('.rightnav');
+    const navBar = document.querySelector('.navbar');
+    const Burger = document.querySelector('.burger');
+    const rightNav = document.querySelector('.rightnav');
 
 
-    burger.addEventListner('click',() =>{
-      rightnav.classList.toggle('v-nav');
-      leftnav.classList.toggle('v-nav')
-      navbar.classList.toggle('h-nav');
+    Burger.addEventListener('click',()=>{
+      rightNav.classList.toggle('v-nav');
+      navBar.classList.toggle('h-nav');
     })
 
   </script>
