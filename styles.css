@@ -44,7 +44,7 @@ body{
   left: 0;
   top: 0;
   background-color: #0c013a92;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(20px);
 }
 
 .text1{
