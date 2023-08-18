@@ -272,12 +272,12 @@ body{
   position: absolute;
   cursor: pointer;
   right: 5%;
-  top: 15px;
+  top: 55px;
   display: none;
 }
 .line{
-  width: 33px;
+  width: 80px;
   background-color: rgb(180, 139, 255);
-  height: 4px;
+  height: 15px;
   margin: 5px 3px;
 }
