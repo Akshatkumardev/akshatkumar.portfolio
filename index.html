@@ -3,33 +3,39 @@
 
 <head>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
   <title>Akshat Kumar - Portfolio</title>
 </head>
 
 <body>
   <div class="main">
-    <section id="home" class="page1 background">
-      <div class="navbar">
-        <nav class="leftnav">
-          <h2 class="text1">A</h2>
-          <h2 class="text2">kshat</h2>
-          <h2 class="text1">.</h2>
-        </nav>
-        <nav class="rightnav">
-          <a href="#home">
-            <button>Home</button>
-          </a>
-          <a href="#about">
-            <button>About Me</button>
-          </a>
-          <a href="#projects">
-            <button>Portfolio</button>
-          </a>
-          <a href="#contactme">
-            <button>Contact</button>
-          </a>
-        </nav>
+    <div class="navbar h-nav">
+      <nav class="leftnav">
+        <div class="text1">A</div>
+        <div class="text2">kshat</div>
+        <div class="text1">.</div>
+      </nav>
+      <nav class="rightnav v-nav">
+        <a href="#home">
+          <button>Home</button>
+        </a>
+        <a href="#about">
+          <button>About Me</button>
+        </a>
+        <a href="#projects">
+          <button>Portfolio</button>
+        </a>
+        <a href="#contactme">
+          <button>Contact</button>
+        </a>
+      </nav>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
+    </div>
+    <section id="home" class="page1 background">
 
       <div class="content">
         <small>Hey! I am Akshat Kumar</small>
@@ -151,6 +157,21 @@
     </section>
 
   </div>
+
+  <script>
+    burger = document.querySelector('.burger');
+    navbar = document.querySelector('.navbar');
+    leftnav = document.querySelector('.leftnav');
+    rightnav= document.querySelector('.rightnav');
+
+
+    burger.addEventListner('click',() =>{
+      rightnav.classList.toggle('v-nav');
+      leftnav.classList.toggle('v-nav')
+      navbar.classList.toggle('h-nav');
+    })
+
+  </script>
 </body>
 
 </html>
