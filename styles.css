@@ -248,9 +248,7 @@ body{
   margin:  20px 20px;
   padding: 15px 15px;
 }
-.querrysection{
-  height: 170px;
-}
+
 .submitbtn{
   border: 2px solid rgb(119, 0, 255);
   background-color: transparent;
@@ -281,3 +279,4 @@ body{
   height: 15px;
   margin: 5px 3px;
 }
+
