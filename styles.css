@@ -44,20 +44,17 @@ body{
   left: 0;
   top: 0;
   background-color: #0c013a92;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(5px);
 }
-
 .text1{
   color: rgb(85, 0, 255);
   font-family: sans-serif;
   display: inline-block;
   margin-right: -4px;
-  font-size: 30px;
 }.text2{
   font-family: sans-serif ;
   color: white;
   display: inline-block;
-  font-size: 30px;
 }
 
 .leftnav{
@@ -174,7 +171,7 @@ body{
 .about-right{
   justify-items: right;
 }
-.about-right img{
+.akshatimg{
   height: 400px;
   width: 400px;
   border: 2px solid white;
@@ -199,6 +196,7 @@ body{
   padding-left: 40px;
   padding-right: 40px;
 }
+
 .portfoliogrid img{
   height: 270px;
   width: 290px;
@@ -248,7 +246,9 @@ body{
   margin:  20px 20px;
   padding: 15px 15px;
 }
-
+.querrysection{
+  height: 170px;
+}
 .submitbtn{
   border: 2px solid rgb(119, 0, 255);
   background-color: transparent;
@@ -265,18 +265,5 @@ body{
   0 0 50px rgb(102, 0, 255),
   0 0 90px rgb(102, 0, 255);
   transition: 0.5s ease;
-}
-.burger{
-  position: absolute;
-  cursor: pointer;
-  right: 5%;
-  top: 70px;
-  display: none;
-}
-.line{
-  width: 80px;
-  background-color: rgb(180, 139, 255);
-  height: 15px;
-  margin: 5px 3px;
 }
 
