@@ -1,0 +1,38 @@
+.akshatimg{
+    transition: ease-in;
+    animation-iteration-count: infinite;
+    animation-name: float;
+    animation-duration: 4s;
+    animation-direction: alternate;
+
+}
+
+@keyframes float{
+    0%{
+      transform: translate(0,0px);  
+    }
+    50%{
+        transform: translate(0,15px);
+    }
+    100%{
+        transform: translate(0,-0px);
+    }
+}
+
+.shadow{
+    width: 300px;
+    height: 320px;
+    margin-top: -100px;
+    margin-left: 50px;
+    object-fit: cover;
+}
+.transition{
+    transition: 1s ease-in-out;
+
+}
+.transition:hover{
+    height: 300px;
+    width: 400px;
+    transition: 1s ease-in-out;
+}
+
