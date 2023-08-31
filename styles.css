@@ -45,24 +45,30 @@ body{
   top: 0;
   background-color: #0c013a92;
   backdrop-filter: blur(5px);
+  z-index: 2;
 }
 .text1{
   color: rgb(85, 0, 255);
   font-family: sans-serif;
-  display: inline-block;
-  margin-right: -4px;
+  margin-right: -0px;
+  font-size: 24px;
 }.text2{
-  font-family: sans-serif ;
+  font-family:  sans-serif;
   color: white;
-  display: inline-block;
+  font-size: 24px;
 }
 
 .leftnav{
-  margin-left: -30px;
+  margin-left: -60px;
   width: 200px;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
+}
+.img{
+  height: 50px;
+  margin-right: 15px;
 }
 .rightnav{
   display: flex;
@@ -265,6 +271,17 @@ body{
   0 0 50px rgb(102, 0, 255),
   0 0 90px rgb(102, 0, 255);
   transition: 0.5s ease;
+}
+.line{
+  height: 25px;
+  width: 130px;
+  margin: 5px;
+  background-color: rgb(60, 0, 164);
+  position: inherit;
+}
+.burger{
+  margin-right: -130px;
+  display: none;
 }
 
 
