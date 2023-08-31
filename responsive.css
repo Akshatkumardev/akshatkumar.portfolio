@@ -1,64 +1,93 @@
 @media only screen and (max-width: 1040px) {
-  .page1,.page2,.page3,.page4{
+
+  .page1,
+  .page2,
+  .page3,
+  .page4 {
     width: 145%;
     height: 2520px;
   }
-  .page2{
-    height: 3000px;
+
+  .page2 {
+    height: 3100px;
   }
-  .page3{
+
+  .page3 {
     height: 3700px;
   }
-  .page4{
+
+  .page4 {
     height: 1500px;
   }
-  
-  .content{
+
+  .content {
     height: 2450px;
     width: 100%;
     align-items: center;
     margin-left: 0;
-    padding-top: 0;  
-    padding-right:  0;
-  }.content h1{
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .content h1 {
     color: rgb(102, 0, 255);
     font-size: 170px;
     text-align: center;
-  }.content small{
+  }
+
+  .content small {
     font-size: 100px;
     text-align: center;
-  }.content p{
-    padding-left: 50px ;
-    padding-right:50px ;
+  }
+
+  .content p {
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 70px;
     text-align: center;
     margin-bottom: 150px;
-  }.content button{
+  }
+
+  .content button {
     margin-bottom: 20px;
     font-size: 80px;
-  }.sociallinks .socialmedia a img{
+  }
+
+  .sociallinks .socialmedia a img {
     height: 100px;
     border-radius: 150px;
     margin: 30px;
+    display: flex;
   }
-  
-  
-  
-  .leftnav{
-   display: none;
+
+  .socialmedia {
+    display: flex;
+    margin-top: 40px;
   }
-  .burger{
+
+
+
+
+  .text1,
+  .text2 {
+    display: none;
+  }
+
+  .burger {
     display: block;
   }
-  .rightnav{
+
+  .rightnav {
     flex-direction: column;
     align-items: center;
     padding-right: 20px;
   }
-  .rightnav a{
+
+  .rightnav a {
     margin: 150px;
   }
-  .rightnav a button{
+
+  .rightnav a button {
     border-width: 7px;
     border-radius: 150px;
     font-size: 65px;
@@ -66,112 +95,137 @@
     font-family: Arial, Helvetica, sans-serif;
     transition: 1s ease-out;
   }
-  .navbar{
+
+  .navbar {
     justify-content: center;
+
     height: 1800px;
     padding-right: 0;
     transition: 1s ease;
   }
-  .h-nav{
+
+  .h-nav {
     height: 170px;
     align-items: center;
     transition: 1s ease-out;
   }
-  .v-nav{
+
+  .v-nav {
     opacity: 0;
   }
 
-  .pageheading{
+  .pageheading {
     font-size: 150px;
   }
-  .aboutme{
+
+  .aboutme {
     display: block;
-    
-    padding-left: 10px ;
-    padding-right: 10px ;
+
+    padding-left: 10px;
+    padding-right: 10px;
   }
-  .ulist li{
+
+  .ulist li {
     font-size: 60px;
     padding-left: 0;
     list-style-type: none;
 
   }
-  .about-left{
+
+  .about-left {
     width: 100%;
     margin-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .main-aboutme{
+
+  .main-aboutme {
     font-size: 70px;
     text-align: center;
     font-weight: bold;
   }
-  .about-left h3{
+
+  .about-left h3 {
     font-size: 65px;
     line-height: 100px;
-    
+
   }
+
   .about-right {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 60px;
   }
-  .about-right img{
+
+  .about-right img {
     height: 500px;
     width: 500px;
   }
 
-  .sub-project{
+  .sub-project {
     grid-template-columns: 1fr 1fr;
   }
-  .portfoliogrid img{
+
+  .portfoliogrid img {
     height: 570px;
     width: 590px;
     margin-bottom: 60px;
   }
-  .sub-websites{
+
+  .sub-websites {
     grid-template-columns: 1fr 1fr;
   }
-  .sub-pageheading{
+
+  .sub-pageheading {
     margin-left: 50px;
     font-size: 60px;
     margin-top: 40px;
   }
-  .sub-pageheading2{
+
+  .sub-pageheading2 {
     margin-left: 10px;
     font-size: 60px;
     margin-top: 40px;
     margin-bottom: 40px;
   }
 
-  .contactme{
+  .contactme {
     display: flex;
     flex-direction: column;
     padding-left: 450px;
     padding-right: 450px;
     padding-top: 40px;
   }
-  
-  
-  .contactme-content,.form-input{
+
+
+  .contactme-content,
+  .form-input {
     padding: 20px 20px;
     font-size: 40px;
     width: 900px;
-    margin:40px;
+    margin: 40px;
     margin-right: 100px;
     margin-left: -200px;
   }
-  .querrysection{
+
+  .querrysection {
     height: 270px;
   }
-  .submitbtn{
+
+  .submitbtn {
     color: white;
     padding: 10px 10px 10px 10px;
     border-radius: 150px;
     font-size: 60px;
   }
-  
-  
+
+  .img {
+    height: 140px;
+    margin-left: -315px;
+
+  }
+
 }
