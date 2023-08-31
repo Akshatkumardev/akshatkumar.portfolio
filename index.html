@@ -12,8 +12,9 @@
   <div class="main">
     <div class="navbar h-nav">
       <nav class="leftnav">
-        <div class="text1">A</div>
-        <div class="text2">kshat</div>
+        <img class="img" src="images/logo.png">
+        <div class="text1">P</div>
+        <div class="text2">ortfilio</div>
         <div class="text1">.</div>
       </nav>
       <nav class="rightnav v-nav">
@@ -164,12 +165,14 @@
     const navBar = document.querySelector('.navbar');
     const Burger = document.querySelector('.burger');
     const rightNav = document.querySelector('.rightnav');
-
-
+    const img = document.querySelector('.img');
+  
     Burger.addEventListener('click',()=>{
       rightNav.classList.toggle('v-nav');
       navBar.classList.toggle('h-nav');
+      img.classList.toggle('img');
     })
+       
 
   </script>
 </body>
