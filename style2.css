@@ -45,7 +45,7 @@ form h3{
     color: #000000aa;
     font-weight: 800;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .submit{
@@ -56,9 +56,9 @@ form h3{
     padding: 10px 40px;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 20px;
+    margin-top: 10px;
     transition: .5s ease-in-out;
 }
 .submit:hover{
-    background-color: rgba(255, 42, 42, 0.423);
+    background-color: rgba(88, 244, 179, 0.423);
 }
